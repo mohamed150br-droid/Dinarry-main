@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=deivice-width, initial-scale=1.0">
+        <title>Dineery-Drinks</title>
+        <link rel="stylesheet" href="CSS/stayle.css">
+        <link rel="icon" href="Assets/img/icon/dineery-low-resolution-logo-black-on-transparent-background.png">
+    </head>
+    
+    <body>
+        <header id="header">
+            <nav class="navbar">
+                <img src="Assets/img/icon/dineery-low-resolution-logo-black-on-transparent-background.png" class="logo">
+                <ul id="nav-items" data-visible = "false">
+                    <li><a href="/Index.html">Home</a></li>
+                    <li><a href="/Meals.html">Meals</a></li>
+                    <li class="active"><a href="/Drinks.html">Drinks</a></li>
+                    <li><a href="/Desserts.html">Desserts</a></li>
+                </ul>
+                <div class="dropdawn" id="dd">
+                    <div class="item_1"></div>
+                    <div class="item_2"></div>
+                    <div class="item_3"></div>
+                </div>
+            </nav>
+        </header>
+        <div class="contant-nav">
+            <ul>
+                <li id="nav-cold" onclick="nav_cold()"><a href="#">Cold</a></li>
+                <li id="nav-hot" onclick="nav_hot()"><a href="#">Hot</a></li>
+            </ul>
+        </div>
+        <!-- COLD -->
+        <div class="contant" id="cold" data-visible = "true">
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Cold/Mango_Juice.jpg" alt="Mango_Juice">
+                <div class="gall-cont">
+                    <p>Mango Juice</p>
+                    <div class="price">20$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Cold/Milk_Coffee.jpg" alt="Milk_Coffee">
+                <div class="gall-cont">
+                    <p>Milk Coffee</p>
+                    <div class="price">15$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Cold/Milkshake.jpg" alt="Milkshake">
+                <div class="gall-cont">
+                    <p>Milkshake</p>
+                    <div class="price">25$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Cold/Mocha.jpg" alt="Mocha">
+                <div class="gall-cont">
+                    <p>Mocha</p>
+                    <div class="price">30$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Cold/Mojito.jpg" alt="Mojito">
+                <div class="gall-cont">
+                    <p>Mojito</p>
+                    <div class="price">12$</div>
+                </div>
+            </div>
+        </div>
+        <!-- HOT -->
+        <div class="contant" id="hot" data-visible = "false">
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Cappuccino.jpg" alt="Cappuccino">
+                <div class="gall-cont">
+                    <p>Cappuccino</p>
+                    <div class="price">25$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Coffee.jpg" alt="Coffee">
+                <div class="gall-cont">
+                    <p>Coffee</p>
+                    <div class="price">10$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Espresso.jpg" alt="Espresso">
+                <div class="gall-cont">
+                    <p>Espresso</p>
+                    <div class="price">20$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Herbal_Tea.jpg" alt="Herbal_Tea">
+                <div class="gall-cont">
+                    <p>Herbal Tea</p>
+                    <div class="price">5$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Hot_Chocolate.jpg" alt="Hot_Chocolate">
+                <div class="gall-cont">
+                    <p>Hot Chocolate</p>
+                    <div class="price">30$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Drinks/Hot/Tea.jpg" alt="Tea">
+                <div class="gall-cont">
+                    <p>Tea</p>
+                    <div class="price">3$</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a href=""><img src="/Assets/img/icon/whatsapp.png"></a></li>
+                <li><a href=""><img src="/Assets/img/icon/fb.png"></a></li>
+                <li><a href=""><img src="/Assets/img/icon/instagram.png"></a></li>
+            </ul>
+            <div class="Copyright">This is a Colleg Project made in 2023<sup>&copy;</sup></div>
+            <div class="Copyright2">2023<sup>&copy;</sup></div>
+        </footer>
+        <script src="JavaScript/Script.js"></script>
+    </body>
+</html>

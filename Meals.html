@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=deivice-width, initial-scale=1.0">
+        <title>Dineery-Meals</title>
+        <link rel="stylesheet" href="CSS/stayle.css">
+        <link rel="icon" href="Assets/img/icon/dineery-low-resolution-logo-black-on-transparent-background.png">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar">
+                <img src="Assets/img/icon/dineery-low-resolution-logo-black-on-transparent-background.png" class="logo">
+                <ul id="nav-items" data-visible = "false">
+                    <li><a href="/Index.html">Home</a></li>
+                    <li class="active"><a href="/Meals.html">Meals</a></li>
+                    <li><a href="/Drinks.html">Drinks</a></li>
+                    <li><a href="/Desserts.html">Desserts</a></li>
+                </ul>
+                <div class="dropdawn" id="dd">
+                    <div class="item_1"></div>
+                    <div class="item_2"></div>
+                    <div class="item_3"></div>
+                </div>
+            </nav>
+        </header>
+        <div class="contant-nav">
+            <ul>
+                <li id="nav-breakfast" onclick="nav_breakfast()"><a href="#">Breakfast</a></li>
+                <li id="nav-lunch" onclick="nav_lunch()"><a href="#">Lunch</a></li>
+                <li id="nav-dinner" onclick="nav_dinner()"><a href="#">Dinner</a></li>
+            </ul>
+        </div>
+        <!-- Breakfast -->
+         <div class="contant" id="breakfast" data-visible = "true">
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/English_Stayle.jpg" alt="English_Stayle">
+                <div class="gall-cont">
+                    <p>English Stayle</p>
+                    <div class="price">23$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/Filled_Croissants.jpg" alt="Filled_Croissants">
+                <div class="gall-cont">
+                    <p>Filled Croissants</p>
+                    <div class="price">15$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/Nicoise_Salad.jpg" alt="Nicoise_Salad">
+                <div class="gall-cont">
+                    <p>Nicoise Salad</p>
+                    <div class="price">60$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/Pancake.jpg" alt="Pancake">
+                <div class="gall-cont">
+                    <p>Pancake</p>
+                    <div class="price">55$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/Strawberry_Proteic_Crepes.jpg" alt="Strawberry_Proteic_Crepes">
+                <div class="gall-cont">
+                    <p>Strawberry Proteic Crepes</p>
+                    <div class="price">5$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Breakfast/Superfood_Peanut_Butter_Oatmeal_Bowl.jpg" alt="Superfood_Peanut_Butter_Oatmeal_Bowl">
+                <div class="gall-cont">
+                    <p>Peanut Butter Oatmeal</p>
+                    <div class="price">10$</div>
+                </div>
+            </div>
+        </div>
+        <!-- Lunch -->
+        <div class="contant" id="lunch" data-visible = "false">
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Lunch/Burger.jpg" alt="Burger">
+                <div class="gall-cont">
+                    <p>Burger</p>
+                    <div class="price">62$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Lunch/Nicoise_Salad.jpg" alt="Nicoise_Salad">
+                <div class="gall-cont">
+                    <p>Nicoise Salad</p>
+                    <div class="price">60$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Lunch/Burrito.jpg" alt="Burrito">
+                <div class="gall-cont">
+                    <p>Burrito</p>
+                    <div class="price">21$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Lunch/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg" alt="Grilled_Garllic_&_Herb_Chicken_&_Veggies">
+                <div class="gall-cont">
+                    <p>Garllic and Chicken</p>
+                    <div class="price">45$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Lunch/Ramen.jpg" alt="Ramen">
+                <div class="gall-cont">
+                    <p>Ramen</p>
+                    <div class="price">15$</div>
+                </div>
+            </div>
+        </div>
+        <!-- Dinner -->
+        <div class="contant" id="dinner" data-visible = "false">
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Dinner/Burrito.jpg" alt="Burrito">
+                <div class="gall-cont">
+                    <p>Burrito</p>
+                    <div class="price">21$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Dinner/Burger.jpg" alt="Burger">
+                <div class="gall-cont">
+                    <p>Burger</p>
+                    <div class="price">62$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Dinner/Pasta.jpg" alt="Pasta">
+                <div class="gall-cont">
+                    <p>Pasta</p>
+                    <div class="price">65$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Dinner/Nicoise_Salad.jpg" alt="Nicoise_Salad">
+                <div class="gall-cont">
+                    <p>Nicoise Salad</p>
+                    <div class="price">60$</div>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="/Assets/img/Meals/Dinner/Grilled_Garllic_&_Herb_Chicken_&_Veggies.jpg" alt="Grilled_Garllic_&_Herb_Chicken_&_Veggies">
+                <div class="gall-cont">
+                    <p>Garllic and Chicken</p>
+                    <div class="price">45$</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a href=""><img src="/Assets/img/icon/whatsapp.png"></a></li>
+                <li><a href=""><img src="/Assets/img/icon/fb.png"></a></li>
+                <li><a href=""><img src="/Assets/img/icon/instagram.png"></a></li>
+            </ul>
+            <div class="Copyright">This is a Colleg Project made in 2023<sup>&copy;</sup></div>
+            <div class="Copyright2">2023<sup>&copy;</sup></div>
+        </footer>
+        <script src="JavaScript/Script.js"></script>
+    </body>
+</html>
